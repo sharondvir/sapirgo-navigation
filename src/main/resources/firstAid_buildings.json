@@ -1,0 +1,54 @@
+[
+  {
+    "building": "1",
+    "description": "Film & Screen Arts – Staff room, Cinema Studio"
+  },
+  {
+    "building": "1",
+    "description": "Film & Screen Arts – Cinema Equipment Storage"
+  },
+  {
+    "building": "2",
+    "description": "Engineering – Staff room"
+  },
+  {
+    "building": "3",
+    "description": "Library – Kitchenette"
+  },
+  {
+    "building": "4",
+    "description": "Student Center – Accessibility Office Secretary"
+  },
+  {
+    "building": "5",
+    "description": "Administration – Ground floor kitchenette"
+  },
+  {
+    "building": "6",
+    "description": "Staff room"
+  },
+  {
+    "building": "7",
+    "description": "Staff room"
+  },
+  {
+    "building": "8",
+    "description": "Academy Building – Room 8001"
+  },
+  {
+    "building": "15",
+    "description": "External Studies Office"
+  },
+  {
+    "building": "16",
+    "description": "Kitchenette"
+  },
+  {
+    "building": "17",
+    "description": "Entrance to building"
+  },
+  {
+    "building": "18",
+    "description": "IT Department"
+  }
+]

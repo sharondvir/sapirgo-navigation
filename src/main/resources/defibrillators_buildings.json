@@ -1,0 +1,18 @@
+[
+  {
+    "building": "8",
+    "description": "Academy Building – Floor 1 (near maintenance room)"
+  },
+  {
+    "building": "4",
+    "description": "Ground floor (near elevators)"
+  },
+  {
+    "building": "4",
+    "description": "Second floor(lobby)"
+  },
+  {
+    "building": "2",
+    "description": "Engineering Building – Entrance (near staff room)"
+  }
+]
