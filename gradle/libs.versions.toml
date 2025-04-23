@@ -1,0 +1,52 @@
+[versions]
+agp = "8.8.0"
+androidMapsUtils = "3.5.3"
+firebaseUiAuth = "8.0.0"
+firebaseUiAuthVersion = "8.0.2"
+googlePlayServicesAuth = "20.4.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.10.0"
+constraintlayout = "2.2.0"
+firebase-auth-ktx = "23.2.0"
+playServicesAuthVersion = "20.7.0"
+playServicesLocation = "21.3.0"
+mapsSecret = "2.0.1"
+googleMaps = "19.0.0"
+googleGmsGoogleServices = "4.4.2"
+playServicesAuth = "21.3.0"
+playServicesLocationVersion = "21.0.1"
+playServicesMaps = "19.0.0"
+volley = "1.2.1"
+
+[libraries]
+android-maps-utils = { module = "com.google.maps.android:android-maps-utils", version.ref = "androidMapsUtils" }
+firebase-ui-auth = { module = "com.firebaseui:firebase-ui-auth", version.ref = "firebaseUiAuth" }
+firebase-ui-auth-v802 = { module = "com.firebaseui:firebase-ui-auth", version.ref = "firebaseUiAuthVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+firebase-auth = { group="com.google.firebase", name="firebase-auth-ktx", version.ref="firebase-auth-ktx"}
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+play-services-auth-v2040 = { module = "com.google.android.gms:play-services-auth", version.ref = "googlePlayServicesAuth" }
+play-services-auth-v2070 = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuthVersion" }
+play-services-location-v2101 = { module = "com.google.android.gms:play-services-location", version.ref = "playServicesLocationVersion" }
+play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "playServicesMaps" }
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
+google-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "googleMaps" }
+volley = { group = "com.android.volley", name = "volley", version.ref = "volley" }
+
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+map-secret= {id="com.google.android.libraries.mapsplatform.secrets-gradle-plugin" ,version.ref ="mapsSecret"}
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#9CF0E4A6">
+
+
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/login_img" />
+
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="455dp"
+        android:gravity="center"
+        android:lineSpacingExtra="15dp"
+        android:padding="4dp"
+        android:text="Hi there!"
+        android:fontFamily="@font/boldfont"
+        android:textStyle="bold"
+        android:textSize="27dp">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="490dp"
+        android:fontFamily="@font/lightfont"
+        android:gravity="center"
+        android:lineSpacingExtra="7dp"
+        android:padding="4dp"
+        android:text="We’re excited to have you here"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/btnGoogleSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="600dp"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_btn"
+        android:layout_centerHorizontal="true">
+
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/google_icon"
+            android:layout_marginRight="10dp" />
+
+        <!-- Sign-In Text -->
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Sign in with Google"
+            android:fontFamily="@font/lightfont"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</RelativeLayout>
